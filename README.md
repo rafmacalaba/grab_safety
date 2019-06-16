@@ -33,6 +33,7 @@ Step by step:
 5. run get_test_result to get the hold out evaluation (using X_test as your hold out data and y_test as your ground truth data.
 
 Additional steps for grab evaluator:
+
 6. run get_all_data for your files for the initial dataframe
 7. run process_all_data and set test_grab_evaluation=True to get your final process dataframe
 8. run get_test_result to get the evaluation score of your files (using run_process_all_data output as your hold out data and your file(s) ground truth data.
